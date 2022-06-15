@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+body {
+    font-family: ;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    gap: 4rem;
+    margin-right: 4rem;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
