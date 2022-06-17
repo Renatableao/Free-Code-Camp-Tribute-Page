@@ -7,33 +7,127 @@
     <meta name="description" content="FreeCodeCamp project: Anne Frank Tribute Page">
     <link rel="stylesheet" href="styles.css" />
     <title>Anne Frank Tribute Page</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#title">Anne Frank</a></li>
-                <li><a href="#">Bio</a></li>
-                <li><a href="#">Museum</a></li>
-                <li><a href="#">Movie</a></li>
-            </ul>
-        </nav>
-    </header> 
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@100;200;300;500&display=swap" rel="stylesheet">
+</head>
+    
+<body>
     <main id="main">
         <section class="description" role="region" aria-labelledby="description">
             <div class="name">
-                <h1 id="title">"Anneliese Marie Frank"</h1>
+                <h1 id="title">Anneliese Marie Frank</h1>
                 <p>A victim of the Holocaust</p>
             </div>
-            <figure id="img-div">
-                <img id="image" src="https://s5.static.brasilescola.uol.com.br/be/2020/05/anne-frank.jpg" alt="Anne Frank is sitting on a desk 
-                holding a pen over an opened book and looking at the person who is taking her picture">
-                <figcaption id="img-caption">Anne Frank com 11 anos de idade, dois anos antes de se esconder dos nazistas. Foto tirada em Amsterdã, Holanda, 1940.</figcaption>
+            <figure id="img-anne">
+                <img id="image" src="https://annefrank.freetls.fastly.net/media/filer_public_thumbnails/filer_public/28/50/28503944-545c-41a3-8ebd-0f9a5dcc72ce/landingspagina_anne_frank_-_banner_verwijzing_naar_het_korte_leven_van_anne_frank.jpg__1280x480_q85_crop_subsampling-2_upscale.jpg" alt="A smiling portrait of Anne Frank">
+                <figcaption id="img-caption">A portrait of Anne Frank (1929 - 1945) from her own photo album.</figcaption>
             </figure>
         </section>
-        <section class="about" role="region" aria-labelledby="about">
+        </section>
+            <nav>
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="#tribute-info">About</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#museum">Museum</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="about" id="tribute-info" role="region" aria-labelledby="about">
+            <h3>"The story of Anne Frank is among the most well-known of the six million Jews who died in the Holocaust. 
+                    Her diary is the first encounter many people have with the history of Nazi Germany's attempt to murder 
+                    all the Jews of Europe during World War II."</h3>
+            <cite>Holocaust Encyclopedia</cite>
+        </section>
 
+        <section class="bio" id="bio" role="region" aria-labelledby="bio">
+            <h2>Biography</h2>
+            <p><span class="first-letter">S</span>he was born Annelies Marie Frank on June 12, 1929, in Frankfurt am Main, Germany. 
+                    Her parents were Otto and Edith Frank. For the first 5 years of her life, Anne lived with her parents and older 
+                    sister, Margot, in an apartment on the outskirts of Frankfurt.</p>
+            <p><span class="first-letter">U</span>nemployment was high and poverty was severe in Germany, and it was the period in which 
+                    Adolf Hitler and his party were gaining more and more supporters. After the Nazis came to power in 1933, Otto Frank 
+                    fled to Amsterdam in the Netherlands, where he had business connections. The rest of the Frank family soon followed, 
+                    with Anne being the last of the family to arrive in February 1934 after staying with her grandparents in Aachen. She 
+                    learned the language, made new friends and went to a Dutch school near her home. Her father worked hard to get his 
+                    business off the ground, but it was not easy. Otto also tried to set up a company in England, but the plan fell through. 
+                    Things looked up when he started selling herbs and spices in addition to the pectin.</p>
+            <p><span class="first-letter">O</span>n 1 September 1939, when Anne was 10 years old, Nazi Germany invaded Poland, and so the 
+                    Second World War began. Not long after, on 10 May 1940, the Nazis also invaded the Netherlands. Five days later, the 
+                    Dutch army surrendered. Slowly but surely, the Nazis introduced more and more laws and regulations that made the lives 
+                    of Jews more difficult.</p>
+            <p><span class="first-letter">I</span>n 1941, after German forces occupied the Netherlands, Anne was compelled to transfer from 
+                    a public school to a Jewish one. On June 12, 1942, she received a red-and-white plaid diary for her 13th birthday. That 
+                    day she began writing in the book: <blockquote>“I hope I will be able to confide everything to you, as I have never been 
+                    able to confide in anyone, and I hope you will be a great source of comfort and support.”</blockquote></p>               
+            <p><span class="first-letter">W</span>hen Margot received a call-up to report for a so-called "labour camp" in Nazi Germany on 5 
+                    July 1942, her parents were suspicious. They did not believe the call-up was about work and decided to go into hiding the 
+                    next day in order to escape persecution. The Franks went into hiding on July 6, 1942, in the backroom office and warehouse 
+                    of Otto Frank’s food-products business. With the aid of a few non-Jewish friends, among them Miep Gies, who smuggled in 
+                    food and other supplies, the Frank family and four other Jews — Hermann and Auguste van Pels and their son, Peter, and Fritz 
+                    Pfeffer — lived confined to the <b>“secret annex.”</b></p>
+            <p><span class="first-letter">D</span>uring the two years in hiding, Anne wrote about events in the Secret Annex, but also about her 
+                    feelings and thoughts. In addition, she wrote short stories, started on a novel and copied passages from the books she read 
+                    in her Book of Beautiful Sentences. Writing helped her pass the time. Anne’s last diary entry was written on August 1, 1944.</p>
+            <p><span class="first-letter">A</span>nne started rewriting her diary, but before she was done, she and the other people in hiding were 
+                    discovered and arrested by police officers on 4 August 1944. The police also arrested two of the helpers. To this day, it is not 
+                    known the reason for the police raid.</p>
+            <p><span class="first-letter">T</span>he Frank family was transported to Westerbork, a transit camp in the Netherlands, and from there 
+                    to Auschwitz, in German-occupied Poland, on September 3, 1944, on the last transport to leave Westerbork for Auschwitz. Anne 
+                    and Margot were transferred to Bergen-Belsen the following month.</p>
+            <p><span class="first-letter">A</span>nne’s mother died in early January, just before the evacuation of Auschwitz on January 18, 1945. 
+                    It was established by the Dutch government that both Anne and Margot died in a typhus epidemic in March 1945, only weeks before
+                    the liberation of Bergen-Belsen, but scholars in 2015 revealed new research, including analysis of archival data and first-person 
+                    accounts, indicating that the sisters might have perished in February 1945. Otto Frank was found hospitalized at Auschwitz when 
+                    it was liberated by Soviet troops on January 27, 1945.</p>
+            <p><span class="first-letter">O</span>tto was presented later with Anne’s writings, which were preserved by Miep Gies one of the Dutch 
+                    citizens who had hidden the Franks. Otto Frank was integral to getting his daughter’s diary published. The book was later 
+                    translated into around 70 languages and adapted for stage and screen. People all over the world were introduced to Anne's story 
+                    and in 1960 the hiding place became a museum: the Anne Frank House.</p>
+        </section>
+
+        <section class="museum" id="museum" role="region" aria-labelledby="museum">
+            <h2>Museum</h2>
+            <p><span class="first-letter">T</span>he Anne Frank House is a museum with a story. As a visitor, you experience this story through quotes, 
+                    photos, videos, and original items. The atmosphere in the museum is authentic and subdued. For visitation rules and information 
+                    please visit: <a href="https://www.annefrank.org/en/museum/">Anne Frank Musem website</a>.</p>
+            <figure id="img-museum">
+                <div>
+                    <img id="address" src="https://annefrank.freetls.fastly.net/media/filer_public_thumbnails/filer_public/68/49/684907e5-3ab1-4583-ad38-88bc8f32426a/amsterdam-kaart-met-logo.jpg__2160x1296_q85_crop_subsampling-2_upscale.jpg" alt="A map showing Anne Frank Museum address">
+                    <figcaption class="caption">Anne Frank House is located in the city centre of Amsterdam, at Prinsengracht 263-267.<br>https://www.annefrank.org/en/museum/tickets/</figcaption>
+                </div>
+                <div>
+                    <img id="aerial" src="https://annefrank.freetls.fastly.net/media/filer_public_thumbnails/filer_public/7e/f8/7ef8a633-ebcc-496a-8db7-090e383d954a/1112_dcs-nw.jpg__2160x1296_q85_crop_subsampling-2_upscale.jpg" alt="An aerial picture of Anne Frank's house">
+                    <figcaption class="caption">Aerial photo from 1949 of the building that had housed Otto Frank’s business.<br>Photo collection: Aviodrome Luchtfotografie, Lelystad</figcaption>
+                </div>
+            </figure>
+            <div class="anne-room">
+                <h3>"Thanks to Father, who had brought my whole collection of picture postcards and movie stars here beforehand, I have been able to 
+                    treat the walls with a pot of glue and a brush and so turn the entire room into one big picture."</h3>
+                <cite>Anne Frank, 11 July 1942</cite>
+            </div>
+            <figure id="img-room">
+                <img id="room" src="https://annefrank.freetls.fastly.net/media/filer_public_thumbnails/imagevault/c1diWRS3VtduoFe4bzfr.jpg__2160x1296_q85_crop_subsampling-2_upscale.jpg" alt="The picture wall in Anne Frank’s room">
+                <figcaption class="caption">The picture wall in Anne Frank’s room.</figcaption>
+            </figure>
+        </section>
+       
+        <section class="movies" id="movies" role="region" aria-labelledby="movies">
+            <h2>Movies</h2>
+            <figure id="img-movies">
+                <div class="movie-title">
+                    <img id="" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRe5ydt7KovakE3sBXWSBuLAl71j_10s6mNm-VgNMGje9Ux338X">
+                    <figcaption class="caption">The Diary of Anne Frank, 1959<br>https://www.youtube.com/watch?v=BHE9ygmiUQ4</figcaption>
+                </div>
+                <div>
+                    <img id="" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKt6RxjYfvhADajEJDT93A7GvHHWrBfFvt3tLADP23VEfchXnr">
+                    <figcaption class="caption">My best friend Anne Frank, 2021<br>https://www.imdb.com/title/tt10360772/</figcaption>
+                </div>
+            </figure>
+            
         </section>
 
     </main>

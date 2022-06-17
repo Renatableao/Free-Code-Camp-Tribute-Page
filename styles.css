@@ -3,31 +3,73 @@
     margin: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion:no-preference) {
     * {
       scroll-behavior: smooth;
     }
   }
 
 body {
-    font-family: ;
+    font-family: 'Courier Prime', monospace;
+    background-color: #2c3844;
+    color: #566471;
 }
 
-header {
+.description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2c3844;
+    color: white;
+    padding: 3rem;
+    position: fixed;
     top: 0;
     width: 100%;
-    background-color: black;
-    position: fixed;
+
+}
+
+#title {
+    font-size: 3em;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.8rem;
+}
+
+#img-anne {
+    background-color: #f2f2f2;
+    width: 98%;
+    border-radius: 0.5rem;
+    margin-top: 12rem;
+}
+
+#image {
+    border-radius: 0.5rem 0.5rem 0;
+    object-fit: cover;
+    width: 100%;
+    max-height: 500px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-weight: 100;
+    font-size: 0.8em;
+    color: #2c3844;
+    padding-bottom: 0.3rem;
+    
 }
 
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content:end;
+    justify-content:center;
     gap: 4rem;
-    margin-right: 4rem;
     font-size: 1.3em;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .nav-list li {
@@ -38,4 +80,102 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
+.about, .bio, .museum, .movies {
+    background-color: #f2f2f2;
+    width: 98%;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem;
+    scroll-margin-top: 12rem;
+}
+
+.about h3, .museum h3 {
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+cite {
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+.bio, .museum, .movies {
+    margin-top: 2rem;
+}
+
+h2 {
+    padding-bottom: 3rem;
+}
+
+.bio p, .museum p {
+    font-size: 1.17em;
+    text-align: justify;
+    text-indent: 3rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    
+}
+
+.first-letter {
+    font-size: 1.8em;
+    
+}
+
+blockquote {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.museum a {
+    text-decoration: none;
+}
+
+
+#img-museum {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 4rem 0;
+    
+}
+
+#address, #aerial, #room {
+
+    border-radius: 0.5rem 0.5rem 0;
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caption {
+    font-weight: 100;
+    font-size: 0.8em;
+    color: #2c3844;
+    padding-bottom: 0.3rem;
+}
+
+.anne-room {
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:640px) {
+
+    html {
+        font-size: 10px;
+    }
+    
+    #title {
+        font-size: 2em;
+    }
+
+    .nav-list {
+        gap:2rem;
+    }
+
+}
+
 
