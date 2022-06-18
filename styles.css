@@ -50,6 +50,7 @@ body {
     height: auto;
     margin: 0 auto;
     display: block;
+    padding-bottom: 0.3rem;
 }
 
 #img-caption {
@@ -182,7 +183,7 @@ blockquote {
     height: 35rem;
 }
 
-#img-movies figcaption {
+#img-movies figcaption, #img-books figcaption {
     font-size: 1em;
 }
 
