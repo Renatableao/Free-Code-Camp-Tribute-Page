@@ -220,10 +220,6 @@ footer a {
         gap:2rem;
     }
 
-    .movie-banner, .book-cover
-    {
-    height: auto;
-    }
 }
 
 
